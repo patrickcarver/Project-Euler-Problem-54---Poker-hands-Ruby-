@@ -39,11 +39,43 @@ Consider the following five hands dealt to two players:
     <td> </td>
     <td style="vertical-align:top;">Player 2</td>
   </tr>
-  <tr><td style="vertical-align:top;"><b>2</b></td><td> </td><td>5D 8C 9S JS AC<br /><div class="note">Highest card Ace</div></td><td> </td><td>2C 5C 7D 8S QH<br /><div class="note">Highest card Queen</div></td><td> </td><td style="vertical-align:top;">Player 1</td>
-</tr><tr><td style="vertical-align:top;"><b>3</b></td><td> </td><td>2D 9C AS AH AC<br /><div class="note">Three Aces</div></td><td> </td><td>3D 6D 7D TD QD<br /><div class="note">Flush  with Diamonds</div></td><td> </td><td style="vertical-align:top;">Player 2</td>
-</tr><tr><td style="vertical-align:top;"><b>4</b></td><td> </td><td>4D 6S 9H QH QC<br /><div class="note">Pair of Queens<br />Highest card Nine</div></td><td> </td><td>3D 6D 7H QD QS<br /><div class="note">Pair of Queens<br />Highest card Seven</div></td><td> </td><td style="vertical-align:top;">Player 1</td>
-</tr><tr><td style="vertical-align:top;"><b>5</b></td><td> </td><td>2H 2D 4C 4D 4S<br /><div class="note">Full House<br />With Three Fours</div></td><td> </td><td>3C 3D 3S 9S 9D<br /><div class="note">Full House<br />with Three Threes</div></td><td> </td><td style="vertical-align:top;">Player 1</td>
-</tr></table>
+  <tr>
+    <td style="vertical-align:top;"><b>2</b></td>
+    <td> </td>
+    <td>5D 8C 9S JS AC<br /><div class="note">Highest card Ace</div></td>
+    <td> </td>
+    <td>2C 5C 7D 8S QH<br /><div class="note">Highest card Queen</div></td>
+    <td> </td>
+    <td style="vertical-align:top;">Player 1</td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top;"><b>3</b></td>
+    <td> </td>
+    <td>2D 9C AS AH AC<br /><div class="note">Three Aces</div></td>
+    <td> </td>
+    <td>3D 6D 7D TD QD<br /><div class="note">Flush  with Diamonds</div></td>
+    <td> </td>
+    <td style="vertical-align:top;">Player 2</td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top;"><b>4</b></td>
+    <td> </td>
+    <td>4D 6S 9H QH QC<br /><div class="note">Pair of Queens<br />Highest card Nine</div></td>
+    <td> </td>
+    <td>3D 6D 7H QD QS<br /><div class="note">Pair of Queens<br />Highest card Seven</div></td>
+    <td> </td>
+    <td style="vertical-align:top;">Player 1</td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top;"><b>5</b></td>
+    <td> </td>
+    <td>2H 2D 4C 4D 4S<br /><div class="note">Full House<br />With Three Fours</div></td>
+    <td> </td>
+    <td>3C 3D 3S 9S 9D<br /><div class="note">Full House<br />with Three Threes</div></td>
+    <td> </td>
+    <td style="vertical-align:top;">Player 1</td>
+  </tr>
+</table>
 
 The file, poker.txt, contains one-thousand random hands dealt to two players. Each line of the file contains ten cards (separated by a single space): the first five are Player 1's cards and the last five are Player 2's cards. You can assume that all hands are valid (no invalid characters or repeated cards), each player's hand is in no specific order, and in each hand there is a clear winner.
 
